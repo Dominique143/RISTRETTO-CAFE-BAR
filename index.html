@@ -3,335 +3,192 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ORÇAMENTO</title>
+    <title>RISTRETTO CAFÉ BAR</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="Style.css">
 </head>
-<body id="body-orç">
+<body>
     <header>
         <img id="Logo" src="Imagens\Ristretto_Logo_Header.png" alt="">
         <div id="Textura_Header">
             <img  src="Imagens\Textura_Header.png" alt="">
         </div>
     </header>
+
     <nav id="menu">
         <div id="barra"></div>
         <div class="navbar-nav d-flex justify-content-evenly">
-            <a class="nav-link" href="Index.html">Home</a>
-            <a class="nav-link" aria-current="page" href="#">Orçamento</a>
-            <a class="nav-link" href="Serviços.html">Serviços</a>
-            <a class="nav-link" href="Sobre.html">Sobre</a>
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="orçamento.html">Orçamento</a>
+            <a class="nav-link" href="serviços.html">Serviços</a>
+            <a class="nav-link" href="sobre.html">Sobre</a>
         </div>
     </nav>
-<div id="div-moore" class="row">
-    <div id="fundo-orç" class="col-md-9 col-12">
-        <h1>ORÇAMENTO</h1>
-        
-        
-        <div id="orçamento" class="col-12 col-md-9">
-            <div id="p-orç">
-                <p>Queremos deixar seu evento ainda mais especial com nossos cafés e drinks de café! Preencha o formulário abaixo para que possamos preparar uma proposta inicial personalizada.</p>
+
+    <div id="banner-botao">
+        <img id="img-banner" src="Imagens\Img_Banner.png" class="img-fluid" alt="..."/>
+        <a href="orçamento.html" id="btn-orçamento" class="btn btn-secondary" tabindex="-1" role="button" aria="true">Faça seu orçamento</a>
+    </div>
+
+    <div id="xicara-texto" class="row row-cols-1 row-cols-md-2">
+        <div id="texto-cafe" class="col-md-8 col-12">
+            <img id="enfeite-texto" src="Imagens\Group 62.png" alt="">
+            
+            <div id="cafes-especiais">
+                <h2>Cafés Especiais</h2>
+                <p>Onde você quiser, quando você </p> 
+                <p>Servimos cafés e drinks de</p> 
+                <p>cafés especiais em seu evento, </p>
+                <p>social ou corporativo.</p>
             </div>
-        <img class="separador-orç" src="Imagens\separador-orç.png" alt="">
-            <ul class="nav nav-tabs nav-justified" id="btn-sc" role="tablist">
-                <li class="nav-item " role="presentation">
-                    <button class="nav-link active" id="social-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Social</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="corporativo-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Corporativo</button>
-                </li>
-            </ul>
-                
-            <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="social-tab" tabindex="0">
-                    <form id="social-form">
-                        <h5>Qual o tipo do seu evento?</h5>
-                        <div class="pergunta">
-                            <div id="social-p-1">
-                                <div class="flex-column">
-                                    <div class="check-line">
-                                        <input class="form-check-input" type="radio" name="evento" id="check-radio" value="" aria-label="...">
-                                        <label>Casamento</label>
-                                    </div>
-                                    <div class="check-line">
-                                        <input class="form-check-input" type="radio" name="evento" id="check-radio" value="" aria-label="...">
-                                        <label>Aniversário</label>
-                                    </div>
-                                    <div class="check-line">
-                                        <input class="form-check-input" type="radio" name="evento" id="check-radio" value="" aria-label="...">
-                                        <label>Formatura</label>
-                                    </div>
-                                </div>
-                                <div class="flex-column input-group flex-nowrap">
-                                    <div class="check-line">
-                                        <input class="form-check-input" type="radio" name="evento" id="check-radio" value="" aria-label="...">
-                                        <label>Confraternização particular</label>
-                                    </div>
-                                    <div class="check-line">
-                                        <input class="form-check-input" type="radio" name="evento" id="check-radio" value="" aria-label="...">
-                                        <label>Outro</label>
-                                    </div>
-                                    <div class="input-group input-group-sm mb-3">
-                                        <input type="text" class="form-control" placeholder="Outro" aria-label="outro" aria-describedby="addon-wrapping">
-                                    </div>
-                                </div>    
-                            </div>
-                        </div>
-                        <img class="separador-orç" src="Imagens\separador-form.png" alt="">
-                        <h5>Deseja servir bebidas alcoólicas?</h5>
-                        <div id="social-p-2">
-                            <div class="check-line">
-                                <input class="form-check-input" type="radio" name="cachaça" id="check-radio" value="" aria-label="...">
-                                <label>Sim</label>
-                            </div>
-                            <div class="check-line">
-                                <input class="form-check-input" type="radio" name="cachaça" id="check-radio" value="" aria-label="...">
-                                <label>Não</label>
-                            </div>
-                            <div class="check-line">
-                                <input class="form-check-input" type="radio" name="cachaça" id="check-radio" value="" aria-label="...">
-                                <label>Talvez</label>
-                            </div>
-                        </div>
-                        <img class="separador-orç" src="Imagens\separador-form.png" alt="">
-                        <h5>Gostaria de adicionar algum destes serviços ao evento?</h5>
-                        <div id="sicial-p-3">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="checkDefault">
-                                <label class="form-check-label" for="checkDefault">
-                                    <h6>Balcão de Drip Station </h6>
-                                    <p>(três diferentes grãos de cafés especiais filtrados sob demanda. Ideal para experiências personalizadas)</p>
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="checkDefault">
-                                <label class="form-check-label" for="checkDefault">
-                                    <h6>Impressora para cappuccino </h6>
-                                    <p>(personaliza os cappuccinos com foto, logo, brasão ou arte escolhida)</p>
-                                </label>
-                            </div>
-                        </div>
-                        <img class="separador-orç" src="Imagens\separador-form.png" alt="">
-                    </form>
+            
+        </div>
+
+        <div id="xicara" class="col-md-4 col-12">
+            <img id="img-xicara" class="img-fluid" src="Imagens\Xicara-reticula.png" alt="">
+        </div>
+    </div>
+
+    <article>
+        <h2>Titulo</h2>
+        <p>A Ristretto nasceu da paixão pelo café e pela intenção de compartilharmos uma bebida de qualidade nos momentos mais marcantes e felizes da vida das pessoas. Como diz o jargão: "a vida é muito curta para tomar cafés ruins". Por que o nosso foco em casamentos? Porque acreditamos nessa união. Luiz Fernando se casou em novembro de 2015. No hall de entrada, lá estávamos recepcionando cada um dos convidados. Daniel se casou em setembro de 2016 e não poderíamos ficar de fora!</p>
+    </article>
+
+    <div id="valores" class="row">
+        <div id="img-valores" class="col justify-content-around">
+            <img  src="Imagens\chemex.png" alt="">
+            <img  src="Imagens\coqueteleira.png" alt="">
+            <img  src="Imagens\chaleira.png" alt="">
+        </div>
+        <div id="texto-valores" class="row row-cols-1 row-cols-md-3">
+            <div class="container col-12 col-md-4">
+                <h3>EXCLUSIVIDADE</h3>
+                <p>Não adianta procurar um substituto. 
+                A responsabilidade, os sorrisos, essa alegria de comemorar com vocês 
+                fazem parte dos nossos valores e não podem ser copiados.</p>
+            </div>
+            <div class="container col-12 col-md-4">
+                <h3>QUALIDADE</h3>
+                <p>Cafés e drinks de qualidade única, de sabor distinto, 
+                personalidade diferente, e muito, muito melhor que as bebidas de café 
+                comumente servidas. Utilizamos grãos que satisfazem os mais altos 
+                padrões de café verde, de torrefação, armazenamento e extração.
+                </p>
+            </div>
+            <div class="container col-12 col-md-4">
+                <h3>DIFERENCIAÇÃO</h3>
+                <p>Somos apaixonados pelo que fazemos e levamos isso aonde você estiver. 
+                Nosso serviço ajudará o seu casamento a ser lembrado com muito carinho 
+                por muito tempo.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="inicio-fundo">
+        <div class="ret-inicio"><img src="Imagens\ret-top.png" alt=""></div>
+        
+        <div id="fundo-preto" class="row row-cols-1 row-cols-md-2">
+
+        <div id="carrossel-foto" class="carousel slide col-12 col-md-8">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Imagens\Servindo.png" class="d-block w-100" alt="...">
                 </div>
-                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="corporativo-tab" tabindex="0">
-                    <form id="corporativo-form">
-                        <h5>Qual o tipo do seu evento?</h5>
-                        <div class="pergunta">
-                            <div id="corporativo-p-1">
-                                <div class="flex-column">
-                                    <div class="check-line">
-                                        <input class="form-check-input" type="radio" name="evento" id="check-radio" value="" aria-label="...">
-                                        <label>Reunião/treinamento</label>
-                                    </div>
-                                    <div class="check-line">
-                                        <input class="form-check-input" type="radio" name="evento" id="check-radio" value="" aria-label="...">
-                                        <label>Feira/congresso</label>
-                                    </div>
-                                    <div class="check-line">
-                                        <input class="form-check-input" type="radio" name="evento" id="check-radio" value="" aria-label="...">
-                                        <label>Lançamento de produto</label>
-                                    </div>
-                                </div>
-                                <div class="flex-column input-group flex-nowrap">
-                                    <div class="check-line">
-                                        <input class="form-check-input" type="radio" name="evento" id="check-radio" value="" aria-label="...">
-                                        <label>Evento de fim de ano</label>
-                                    </div>
-                                    <div class="check-line">
-                                        <input class="form-check-input" type="radio" name="evento" id="check-radio" value="" aria-label="...">
-                                        <label>Outro</label>
-                                    </div>
-                                    <div class="input-group input-group-sm mb-3">
-                                        <input type="text" class="form-control" placeholder="Outro" aria-label="outro" aria-describedby="addon-wrapping">
-                                    </div>
-                                </div>    
-                            </div>
-                        </div>
-                        <img class="separador-orç" src="Imagens\separador-form.png" alt="">
-                        <h5>Quantas doses estima servir por dia?</h5>
-                        <div id="corporativo-p-2">
-                            <select class="form-select" aria-label="Default select example">
-                                <option selected>Selecione</option>
-                                <option value="1">200 Doses</option>
-                                <option value="2">300 Doses</option>
-                                <option value="3">400 Doses</option>
-                                <option value="3">500 Doses</option>
-                                <option value="3">600 Doses</option>
-                                <option value="3">700 Doses</option>
-                                <option value="3">800 Doses</option>
-                                <option value="3">900 Doses</option>
-                                <option value="3">1000 Doses</option>
-                            </select>
-                            <p id="txt-menor">Mais de 1000 Doses</p>
-                            <div class="input-group input-group mb-3">
-                                <input type="text" class="form-control" placeholder="Digite" aria-label="outro" aria-describedby="addon-wrapping">
-                            </div>
-                        </div>
-                        <img class="separador-orç" src="Imagens\separador-form.png" alt="">
-                        <h5>Seleção de bebidas</h5>
-                        <div id="corporativo-p-3">
-                            <input type="checkbox" class="btn-check" id="btn-check-1" autocomplete="off">
-                            <label class="btn" for="btn-check-1">Expresso</label>
-
-                            <input type="checkbox" class="btn-check" id="btn-check-2" autocomplete="off">
-                            <label class="btn" for="btn-check-2">Cappuccino</label>
-
-                            <input type="checkbox" class="btn-check" id="btn-check-3" autocomplete="off">
-                            <label class="btn" for="btn-check-3">Chocolate quente cremoso</label>
-
-                            <input type="checkbox" class="btn-check" id="btn-check-4" autocomplete="off">
-                            <label class="btn" for="btn-check-4">Bebidas geladas</label>
-
-                            <input type="checkbox" class="btn-check" id="btn-check-5" autocomplete="off">
-                            <label class="btn" for="btn-check-5">Outro</label>
-                        </div>
-                        <img class="separador-orç" src="Imagens\separador-form.png" alt="">
-                        <h5>Gostaria de adicionar algum destes serviços ao evento?</h5>
-                        <div id="corporativo-p-4">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="checkDefault">
-                                <label class="form-check-label" for="checkDefault">
-                                    <h6>Balcão de Drip Station </h6>
-                                    <p>(três diferentes grãos de cafés especiais filtrados sob demanda. Ideal para experiências personalizadas)</p>
-                                </label>
-                            </div>
-                        </div>
-                        <img class="separador-orç" src="Imagens\separador-form.png" alt="">
-                        <h5>Deseja copos ou embalagens personalizados da sua marca?</h5>
-                        <div id="corporativo-p-5">
-                            <div class="check-line">
-                                <input class="form-check-input" type="radio" name="cachaça" id="check-radio" value="" aria-label="...">
-                                <label>Sim</label>
-                            </div>
-                            <div class="check-line">
-                                <input class="form-check-input" type="radio" name="cachaça" id="check-radio" value="" aria-label="...">
-                                <label>Não</label>
-                            </div>
-                        </div>
-                        <h5>Mais detalhes?</h5>
-                            <div class="input-group input-group mb-3">
-                                <input id="detalhes" type="text" class="form-control" placeholder="Descreva" aria-label="descreva" aria-describedby="addon-wrapping">
-                            </div>
-                    </form>
+                <div class="carousel-item">
+                    <img src="Imagens\Cappuccino.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens\Drink.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens\Tres-cafes.png" class="d-block w-100" alt="...">
                 </div>
             </div>
-            <div id="seg-form">
-                <form>
-                    <h5>Qual vai ser a duração do evento?</h5>
-                    <div id="duração">
-                            <ul class="nav nav-pills mb-3" id="dias" role="tablist">
-                                <li class="nav-item" role="presentation">
-                                    <input class="form-check-input active" id="pills-um-tab" name="dia" data-bs-toggle="pill" data-bs-target="#pills-home" type="radio" role="tab" aria-controls="pills-home" checked aria-selected="true">Um dia</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <input class="form-check-input" id="pills-mais-tab" name="dia" data-bs-toggle="pill" data-bs-target="#pills-profile" type="radio" role="tab" aria-controls="pills-profile" aria-selected="false">Mais de um dia</button>
-                                </li>
-                            </ul>
-                                <div class="tab-content" id="form-dias">
-                                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-                                        <div class="dia row" id="um-dia">
-                                            <label for="data">Data:</label>
-                                            <input type="date" name="data">
-                                        </div>
-                                        <div class="hora">
-                                            <div class="row">
-                                                <label for="hora">Inicio:</label>
-                                                <input id="hora" type="time" name="hora" />
-                                            </div>
-                                            <div class="row">
-                                                <label for="hora">Término:</label>
-                                                <input id="hora" type="time" name="hora" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
-                                        <div class="dia">
-                                            <div class="row">
-                                                <label for="data">Inicio:</label>
-                                                <input id="data" type="date" name="data">
-                                            </div>
-                                            <div class="row">
-                                                <label for="data">Término:</label>
-                                                <input id="data" type="date" name="data">
-                                            </div>
-                                        </div>
-                                        <div class="hora">
-                                            <div class="row">
-                                                <label for="hora">Inicio:</label>
-                                                <input id="hora" type="time" name="hora" />
-                                            </div>
-                                            <div class="row">
-                                                <label for="hora">Término:</label>
-                                                <input id="hora" type="time" name="hora" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <img class="separador-orç" src="Imagens\separador-form.png" alt="">
-                                <h5>Qual o local do evento?</h5>
-                                    <div class="input-group input-group mb-3">
-                                        <input id="detalhes" type="text" class="form-control" placeholder="Endereço" aria-label="descreva" aria-describedby="addon-wrapping">
-                                    </div>
-                                <img class="separador-orç" src="Imagens\separador-form.png" alt="">
-                                <h5>Qual o numero estimado de convidados?</h5>
-                                    <div class="input-group input-group mb-3">
-                                        <input id="detalhes" type="text" class="form-control" placeholder="Numero de convidados" aria-label="descreva" aria-describedby="addon-wrapping">
-                                    </div>
-                                <img class="separador-orç" src="Imagens\separador-form.png" alt="">
-                                <h5>Alguma observação?</h5>
-                                    <div class="input-group input-group mb-3">
-                                        <input id="detalhes" type="text" class="form-control" placeholder="Observações" aria-label="descreva" aria-describedby="addon-wrapping">
-                                    </div>
-                                <img class="separador-orç" src="Imagens\separador-form.png" alt="">
-                                <br>
-                            </form>
-                        </div>
-                    </div>
-                <div id="conheceu">
-                    <h5>Como conheceu a Ristretto?</h5>
-                        <select class="form-select" aria-label="Default select example">
-                            <option selected>Selecione</option>
-                            <option value="1">indicação</option>
-                            <option value="2">Instagram</option>
-                            <option value="3">Google</option>
-                            <option value="3">Casamentos.com</option>
-                            <option value="3">Outro</option>
-                        </select>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carrossel-foto" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carrossel-foto" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próxima</span>
+                </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carrossel-foto" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carrossel-foto" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carrossel-foto" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carrossel-foto" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+        </div>
+</span>
+            <div class="col-12 col-md-4" id="texto-inicio">
+                <div>
+                    <h4>O início</h4>
+                    <p id="p-inicio">A Ristretto nasceu da paixão pelo café e pela intenção de compartilharmos uma bebida de qualidade 
+                    nos momentos mais marcantes e felizes da vida das pessoas.
+                    </p>
+                    
                 </div>
-                <div id="form-dados">
-                        <form>
-                            <div class="mb-3">
-                                <label for="nome" class="form-label">Nome:</label>
-                                <input type="text" class="form-control" id="nome" placeholder="Nome completo">
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Email:</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nome@email.com">
-                            </div>
-                            <div class="mb-3">
-                                <label for="telefone" class="form-label">Telefone:</label>
-                                <input type="tel" class="form-control" id="telefone" placeholder="(XX) XXXXX-XXXX">
-                            </div>
-                            <div class="mb-3">
-                                <label for="msg" class="form-label">Mensagem:</label>
-                                <textarea class="form-control" id="msg" rows="3"></textarea>
-                            </div>
-                        <div id="btn-final">
-                            <button id="enviar" type="submit" class="btn">Enviar</button>
-                            <button id="cancelar" type="reset" class="btn">Cancelar</button>
-                        </div>
+                    <a href="Sobre.html" id="btn-leia" class="btn btn-secondary" tabindex="-1" role="button" aria="true">Leia mais</a>
+
+            </div>
+        </div>
+        <div class="ret-inicio"><img src="Imagens\ret-bottom.png" alt=""></div>
+    </div>
+
+    <div id="fundo-ct">
+        
+        <div id="carrossel-texto" class="carousel slide col-12 col-md-10">
+            <h3>Comentários</h3>
+            <div id="txt-crs" class="carousel-inner">
+                <div class="c-i-t carousel-item active">
+                    <p class="texto-crs">
+                        "Ristretto fez o meu casamento e foram excelentes! Diversos convidados nos procuraram depois elogiando tanto a qualidade do café 
+                        - que estava maravilhoso - como também a simpatia dos baristas! 
+                        Um belo diferencial que contribuiu para que minha festa fosse lembrada com carinho pelos convidados! Super recomendo! :) 
+                        (gostamos tanto que meu cunhado já decidiu contratá-los para a festa de casamento dele tb!)".
+                    </p>
+                    <p class="texto-crs-n">Natália B, em casamentos.com.br</p>
                 </div>
-                        </form>
-                        
-                <div id="separador-bottom-orç">
-                    <img id="separador-bottom" src="Imagens\reticula-bottom.png" alt="">
+                <div class="c-i-t carousel-item">
+                    <p class="texto-crs">
+                        "Nossos convidados acharam o máximo a novidade de termos uma cafeteria durante a festa, 
+                        com cafés espressos, cappuccinos. Os baristas foram super agradáveis com todo mundo 
+                        e os cafés estavam delícia!"
+                    </p>
+                    <p class="texto-crs-n">Virgínia C, em casamentos.com.br</p>
                 </div>
-    
-</div>
-</div>
-        <div id="f1"></div>
+                <div class="c-i-t carousel-item">
+                    <p class="texto-crs">
+                        De longe, o melhor prestador de serviços do meu casamento. 
+                        De todos os fornecedores, a Ristretto foi a única que, além de não dar qualquer tipo de trabalho/dor de cabeça, 
+                        foi totalmente elogiada por todos os convidados, seja a mais nova, de 6 anos, seja o mais velho, de 92 anos. 
+                        Todos adoraram as bebidas e o atendimento/simpatia de toda a equipe. 
+                        Só tenho elogios para fazer desta empresa, a qual, desde o meu chá-bar, 
+                        sempre me deixou despreocupado e ansioso pelo atendimento 
+                        (ansioso num bom sentido, haja vista que o que eu queria mesmo era provar as bebidas).
+                        Mais do que recomendo a Ristretto.
+                    </p>
+                    <p class="texto-crs-n">Alessandro, em casamentos.com.br</p>
+                </div>
+            </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carrossel-texto" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon btn-comentario" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carrossel-texto" data-bs-slide="next">
+                    <span class="carousel-control-next-icon btn-comentario" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próxima</span>
+                </button>
+            <div id="carousel-indicators-texto" class="carousel-indicators">
+                <button  type="button" data-bs-target="#carrossel-texto" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button  type="button" data-bs-target="#carrossel-texto" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button  type="button" data-bs-target="#carrossel-texto" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+        </div> 
+        <img id="separador-bottom" src="Imagens\reticula-bottom.png" alt="">
+    </div>
+
+    <div id="f1"></div>
     <div id="f2"></div>
     <div id="f3"></div>
     <footer>
