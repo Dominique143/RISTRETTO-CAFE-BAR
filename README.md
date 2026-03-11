@@ -1,8 +1,14 @@
-Ristretto Café Bar
+                                                                                            Ristretto Café Bar
 
 O objeto de estudo faz parte da disciplina de Projeto Integrador com foco em um website para a empresa Restritto Café Bar. Eles oferecem serviços personalizados para atendimento em eventos, fornecendo cafés e atendimento. O site atenderá a necessidade de propagandear a empresa, assim como exibir um menu que permita pedidos personalizados pelos clientes.
 
-🚀 Começando Links importantes:
+https://github.com/infocbra/2025-2-vespertino-pi1-g2-2025-2
+
+
+🚀 Começando 
+
+
+Links importantes:
 
 Documentação- https://docs.google.com/document/d/1eZIGkMDywHRRPel9M24VudwuQuGZFgRqDFqz1snY5z0/edit?usp=sharing
 
