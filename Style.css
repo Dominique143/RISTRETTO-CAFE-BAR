@@ -7,7 +7,7 @@
 header{
     height: 153px;
     width: 100%;
-    background-color: #000000;
+    background-color: #FFF5E9;
     display: flex;
 }
 #Logo{
@@ -45,7 +45,7 @@ header{
 }
 
 .navbar-nav{
-    background-color: #3B2819 !important;
+    background-color: #1F140F !important;
     width: 100%;
     height: 35px;
 }
@@ -774,6 +774,25 @@ color: #FFF5E9;
             
             
             /*PAGINA SERVIÇOS*/
+.servicosdiv1 {
+    background-color: #000000;
+}
+
+.servicosdiv2 {
+    background-color: #3B2819;
+}
+
+.servicosdiv3 {
+    background-color: #FFF5E9;
+}
+
+.servicosdiv4 {
+    background-color: #EC8A6A;
+}
+
+.servicosdiv5 {
+    background-color: #CABAA4;
+}
 
 .servicosdiv1, .servicosdiv2, .servicosdiv3, .servicosdiv4, .servicosdiv5 {
     display: flex;
@@ -781,7 +800,6 @@ color: #FFF5E9;
     align-items: stretch;
     flex-wrap: wrap;
     padding: 60px 40px;
-    background-color: #FFF5E9;    
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -792,8 +810,7 @@ color: #FFF5E9;
 }
 
 .servicosdiv2, .servicosdiv4 {
-    flex-direction: row-reverse;
-    background-color: #F4EBE4;
+    flex-direction: row-reverse;    
 }
 
 #texto-info1, #texto-info2, #texto-info3, #texto-info4, #texto-info5 {
@@ -808,14 +825,26 @@ color: #FFF5E9;
     min-height: 400px;
 }
 
-#texto-info1 h2, #texto-info2 h2, #texto-info3 h2, #texto-info4 h2, #texto-info5 h2 {
+
+#texto-info1 h2, #texto-info2 h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+#texto-info3 h2, #texto-info4 h2, #texto-info5 h2 {
     color: #1F140F;
     margin-bottom: 20px;
     font-size: 2rem;
 }
 
-#texto-info1 p, #texto-info2 p, #texto-info3 p, #texto-info4 p, #texto-info5 p {
-    color: #3B2819;
+#texto-info1 p, #texto-info2 p {
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+
+#texto-info3 p, #texto-info4 p, #texto-info5 p {
+    color: #1F140F;
     font-size: 1.1rem;
 }
 
