@@ -13,24 +13,26 @@
     </header>
 
     <nav id="menu">
-        <div id="barra"></div>
-        <div class="navbar-nav d-flex justify-content-evenly">
-            <a class="nav-link" href="index.html">Home</a>
-            <a class="nav-link" href="orçamento.html">Orçamento</a>
-            <a class="nav-link" href="serviços.html">Serviços</a>
-            <a class="nav-link" aria-current="page" href="sobre.html">Sobre</a>
+        <div class="navbar-nav d-flex">
+            <a class="nav-link" href="index.html">INICIO</a>
+            <a class="nav-link" href="orçamento.html">ORÇAMENTO</a>
+            <a class="nav-link" href="serviços.html">SERVIÇO</a>
+            <a class="nav-link" aria-current="page" href="sobre.html">SOBRE</a>
         </div>
     </nav>
-
     <div id="banner-botao">
         <img id="img-banner" src="Imagens\Img_Banner.png" class="img-fluid" alt="..."/>
-        <a href="orçamento.html" id="btn-orçamento" class="btn btn-secondary" tabindex="-1" role="button" aria="true">Faça seu orçamento</a>
+        <a href="Orçamento.html" id="btn-orçamento" tabindex="-1" role="button" aria="true">
+            <img id="textura-botao" src="Imagens\textura-botão.png" alt="">
+        </a>
+    </div>
+
+    <div id="banner-borda">
+        <img id="img-ret-home" src="Imagens\reticula-home.png" alt="...">
     </div>
 
     <div id="xicara-texto" class="row row-cols-1 row-cols-md-2">
-        <div id="texto-cafe" class="col-md-8 col-12">
-            <img id="enfeite-texto" src="Imagens\Group 62.png" alt="">
-            
+        <div id="texto-cafe" class="col-md-8 col-12">            
             <div id="cafes-especiais">
                 <h2>Cafés Especiais</h2>
                 <p>Onde você quiser, quando você </p> 
@@ -38,9 +40,7 @@
                 <p>cafés especiais em seu evento, </p>
                 <p>social ou corporativo.</p>
             </div>
-            
         </div>
-
         <div id="xicara" class="col-md-4 col-12">
             <img id="img-xicara" class="img-fluid" src="Imagens\Xicara-reticula.png" alt="">
         </div>
@@ -81,9 +81,6 @@
         </div>
     </div>
 
-    <div id="inicio-fundo">
-        <div class="ret-inicio"><img src="Imagens\ret-top.png" alt=""></div>
-        
         <div id="fundo-preto" class="row row-cols-1 row-cols-md-2">
 
         <div id="carrossel-foto" class="carousel slide col-12 col-md-8">
@@ -117,7 +114,7 @@
             </div>
         </div>
 </span>
-            <div class="col-12 col-md-4" id="texto-inicio">
+            <div id="texto-inicio" class="col-12 col-md-4">
                 <div>
                     <h4>O início</h4>
                     <p id="p-inicio">A Ristretto nasceu da paixão pelo café e pela intenção de compartilharmos uma bebida de qualidade 
@@ -129,15 +126,13 @@
 
             </div>
         </div>
-        <div class="ret-inicio"><img src="Imagens\ret-bottom.png" alt=""></div>
-    </div>
 
-    <div id="fundo-ct">
+<div id="fundo-ct">
         
-        <div id="carrossel-texto" class="carousel slide col-12 col-md-10">
+        <div id="carrossel-texto" class="carousel slide col-12 col-md-7">
             <h3>Comentários</h3>
             <div id="txt-crs" class="carousel-inner">
-                <div class="c-i-t carousel-item active">
+                <div id="car-itm-a" class="c-i-t carousel-item active">
                     <p class="texto-crs">
                         "Ristretto fez o meu casamento e foram excelentes! Diversos convidados nos procuraram depois elogiando tanto a qualidade do café 
                         - que estava maravilhoso - como também a simpatia dos baristas! 
@@ -146,7 +141,7 @@
                     </p>
                     <p class="texto-crs-n">Natália B, em casamentos.com.br</p>
                 </div>
-                <div class="c-i-t carousel-item">
+                <div id="car-itm" class="c-i-t carousel-item">
                     <p class="texto-crs">
                         "Nossos convidados acharam o máximo a novidade de termos uma cafeteria durante a festa, 
                         com cafés espressos, cappuccinos. Os baristas foram super agradáveis com todo mundo 
@@ -154,7 +149,7 @@
                     </p>
                     <p class="texto-crs-n">Virgínia C, em casamentos.com.br</p>
                 </div>
-                <div class="c-i-t carousel-item">
+                <div id="car" class="c-i-t carousel-item">
                     <p class="texto-crs">
                         De longe, o melhor prestador de serviços do meu casamento. 
                         De todos os fornecedores, a Ristretto foi a única que, além de não dar qualquer tipo de trabalho/dor de cabeça, 
@@ -185,9 +180,6 @@
         <img id="separador-bottom" src="Imagens\reticula-bottom.png" alt="">
     </div>
 
-    <div id="f1"></div>
-    <div id="f2"></div>
-    <div id="f3"></div>
     <footer>
         <img src="Imagens\Ristretto_cafebar_branca 1.png" alt="">
         <div id="redes">
