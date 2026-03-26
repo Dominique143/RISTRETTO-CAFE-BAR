@@ -416,6 +416,26 @@ footer{
     gap: 15px;
     padding-right: 20px;
 }
+#wtsapp-btn{
+        position: fixed;
+        width: 70px;
+        height: 70px;
+        bottom: 30px;
+        right: 30px;
+        background-color: #25d366;
+        border-radius: 50%;
+        box-shadow: 2px 3px 5px rgba(0,0,0,0.3);
+        z-index: 3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+}
+
+#WAB{
+        width: 60px;
+        height: 60px;
+}
 
                                                                                             /*Responsividade HOME*/
 
@@ -510,6 +530,26 @@ h3{
 
 .texto-crs-n{
     font-size: 1.6rem;
+}
+#wtsapp-btn{
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 20px;
+        right: 20px;
+        background-color: #25d366;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+        z-index: 3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+}
+
+#WAB{
+        width: 55px;
+        height: 55px;
 }
 
 }
