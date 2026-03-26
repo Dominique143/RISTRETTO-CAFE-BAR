@@ -2,6 +2,7 @@
 
 O objeto de estudo faz parte da disciplina de Projeto Integrador com foco em um website para a empresa Restritto Café Bar. Eles oferecem serviços personalizados para atendimento em eventos, fornecendo cafés e atendimento. O site atenderá a necessidade de propagandear a empresa, assim como exibir um menu que permita pedidos personalizados pelos clientes.
 
+Site - https://dominique143.github.io/RISTRETTO-CAFE-BAR/
 https://github.com/infocbra/2025-2-vespertino-pi1-g2-2025-2
 
 
@@ -16,7 +17,7 @@ Kanban- https://github.com/orgs/infocbra/projects/57
 
 Protótipo figma - https://www.figma.com/design/pSGrqrZ4uSJNWiQBkG6ju4/wireframes?node-id=0-1&p=f&t=e4AQkUVI4rmqfAux-0
 
-Site - https://dominique143.github.io/RISTRETTO-CAFE-BAR/
+
 
 mvp - https://github.com/Dominique143/RISTRETTO-CAFE-BAR
 
