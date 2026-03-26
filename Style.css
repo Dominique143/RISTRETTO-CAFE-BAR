@@ -9,6 +9,7 @@ header{
     width: 100%;
     background-color: #FFF5E9;
     display: flex;
+    justify-content: center;
 }
 #Logo{
     position: static;
@@ -243,6 +244,7 @@ article p{
 #fundo-preto{
     background-color: #000000;
     padding: 80px 0;
+    align-content: center;
 }
 
 .carousel-indicators [data-bs-target] {
