@@ -419,23 +419,23 @@ footer{
     padding-right: 20px;
 }
 #wtsapp-btn{
-        position: fixed;
-        width: 70px;
-        height: 70px;
-        bottom: 30px;
-        right: 30px;
-        border-radius: 50%;
-        box-shadow: 2px 3px 5px rgba(0,0,0,0.3);
-        z-index: 3;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-decoration: none;
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    bottom: 30px;
+    right: 30px;
+    
+    
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 #WAB{
-        width: 60px;
-        height: 60px;
+    width: 60px;
+    height: 60px;
 }
 
                                                                                             /*Responsividade HOME*/
@@ -458,6 +458,13 @@ header{
 #xicara-texto{
     height: 500px;
 }
+#xicara{
+    height: 70%;
+    margin-top: 150px;
+    
+    
+}
+
 #texto-cafe{
     padding: 100px;
 }
@@ -495,7 +502,9 @@ article p{
 #valores p{
     font-size: 1.3rem;
 }
-
+#fundo-preto{
+    justify-content: center;
+}
 
 #carrossel-foto{
     width: 60%;
@@ -538,13 +547,13 @@ h3{
         height: 60px;
         bottom: 20px;
         right: 20px;
-        border-radius: 50%;
-        box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+        
+
         z-index: 3;
         display: flex;
         align-items: center;
         justify-content: center;
-        text-decoration: none;
+        
 }
 
 #WAB{
