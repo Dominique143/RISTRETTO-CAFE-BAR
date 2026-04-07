@@ -1078,11 +1078,17 @@ color: #FFF5E9;
                         /*PAGINA SOBRE*/
 
 #sobre {
-    background: linear-gradient(135deg, #000000 0%, #000000 100%);
+    background-color: #FFF5E9;
     padding: 80px 40px;
-    text-align: center;
     position: relative;
     overflow: hidden;
+    float: left;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
 }
 
 #sobre::before {
@@ -1103,29 +1109,33 @@ color: #FFF5E9;
     font-family: 'Source Sans 3', sans-serif;
     font-size: 1.2rem;
     line-height: 1.8;
-    color: #ffffff;
+    color: #000000;
     position: relative;
     z-index: 1;
     text-shadow: 0 1px 2px rgba(0,0,0,0.1);
 }
 
 #comentarios-clientes {
-    background: linear-gradient(135deg, #ece9e7 0%, #CABAA4 100%);
+    background-color: #ffffff;
     padding: 80px 40px;
-    text-align: center;
     position: relative;
+    float: right;
+    width: 30%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    min-height: 600px;
+    border: 1px solid #e0e0e0;
+    border-radius: 0px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
 #comentarios-clientes h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     color: #1F140F;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     position: relative;
     z-index: 1;
     width: 100%;
@@ -1136,49 +1146,30 @@ color: #FFF5E9;
     display: block;
     width: 100px;
     height: 3px;
-    background: #EC8A6A;
-    margin: 20px auto 0;
-    border-radius: 2px;
+    margin: 1px;
+    border-radius: 1px;
 }
 
 #comentarios-clientes p {
     font-family: 'Source Sans 3', sans-serif;
-    font-size: 1.1rem;
-    color: #3B2819;
+    font-size: 0.9rem;
+    color: #000000;
     margin: 0;
-    max-width: 400px;
-    line-height: 1.6;
+    max-width: 1000px;
+    line-height: 1.2;
     padding: 30px 25px;
-    background: rgba(255, 245, 233, 0.9);
-    border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    border-radius: 10px;
     position: relative;
     flex: 0 1 calc(50% - 15px);
+}
+
+#comentarios-clientes p2 {
+    font-weight: bold;
 }
 
 #comentarios-clientes p:hover {
     transform: translateY(-5px);
     box-shadow: 0 12px 30px rgba(0,0,0,0.2);
-}
-
-#comentarios-clientes p::before {
-    content: '"';
-    font-size: 3rem;
-    color: #EC8A6A;
-    position: absolute;
-    top: -10px;
-    left: 20px;
-    font-family: 'Playfair Display', serif;
-}
-
-#comentarios-clientes p::after {
-    content: '"';
-    font-size: 3rem;
-    color: #EC8A6A;
-    position: absolute;
-    bottom: -30px;
-    right: 20px;
-    font-family: 'Playfair Display', serif;
 }
 
 #daniel-viana {
@@ -1191,6 +1182,10 @@ color: #FFF5E9;
     gap: 40px;
     max-width: 1100px;
     margin: 0 auto;
+    clear: both;
+    border: 1px solid #e0e0e0;
+    border-radius: 0px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
 #daniel-viana img {
@@ -1198,7 +1193,7 @@ color: #FFF5E9;
     max-width: 100%;
     height: auto;
     object-fit: cover;
-    border-radius: 18px;
+    border-radius: 50%;
     box-shadow: 0 8px 20px rgba(0,0,0,0.12);
 }
 
@@ -1250,15 +1245,24 @@ color: #FFF5E9;
 @media (max-width: 768px) {
     #sobre {
         padding: 40px 20px;
-        font-size: 1rem;
+        float: none;
+        width: 100%;
+        min-height: auto;
+    }
+
+    #sobre p {
+          font-size: 1rem;
     }
 
     #comentarios-clientes {
         padding: 40px 20px;
+        float: none;
+        width: 100%;
+        min-height: auto;
     }
 
     #comentarios-clientes h2 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     #comentarios-clientes p {
@@ -1272,7 +1276,7 @@ color: #FFF5E9;
     }
 
     #daniel-viana img {
-        width: 100%;
+        width: 50%;
         margin-bottom: 20px;
     }
 
