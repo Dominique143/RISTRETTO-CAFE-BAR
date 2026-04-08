@@ -30,7 +30,7 @@ header{
     z-index: 3;
 }
 
-.bg-body-tertiary{
+#bg-body-tertiary{
     height: 54px;
     display: flex;
     flex-wrap: wrap;
@@ -1077,9 +1077,18 @@ color: #FFF5E9;
 }
                         /*PAGINA SOBRE*/
 
+#body-sobre{
+    background-color: #CABAA4;
+    }
+
+#back-ground-sobre{
+    background-color: #FFF5E9;
+    margin: auto;
+    }
+
 #sobre {
     background-color: #FFF5E9;
-    padding: 80px 40px;
+    padding: 0px 40px;
     position: relative;
     overflow: hidden;
     float: left;
@@ -1089,6 +1098,10 @@ color: #FFF5E9;
     justify-content: center;
     align-items: center;
     min-height: 600px;
+}
+#sobre-comentarios{
+    display: flex;
+    padding: 80px 0px;
 }
 
 #sobre::before {
@@ -1116,8 +1129,8 @@ color: #FFF5E9;
 }
 
 #comentarios-clientes {
-    background-color: #ffffff;
-    padding: 80px 40px;
+    background-color: rgba(59, 40, 25, 0.54);    
+    padding: 30px 20px;
     position: relative;
     float: right;
     width: 30%;
@@ -1125,17 +1138,18 @@ color: #FFF5E9;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 600px;
     border: 1px solid #e0e0e0;
     border-radius: 0px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    margin: 0px 20px 0 0 ;
+    height: fit-content;
 }
 
 #comentarios-clientes h2 {
     font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
-    color: #1F140F;
-    margin-bottom: 30px;
+    color: #ffffff;
+    margin-bottom: 10px;
     position: relative;
     z-index: 1;
     width: 100%;
@@ -1152,12 +1166,12 @@ color: #FFF5E9;
 
 #comentarios-clientes p {
     font-family: 'Source Sans 3', sans-serif;
-    font-size: 0.9rem;
-    color: #000000;
+    font-size: 1rem;
+    color: #ffffff;
     margin: 0;
     max-width: 1000px;
     line-height: 1.2;
-    padding: 30px 25px;
+    padding: 30px 5px;
     border-radius: 10px;
     position: relative;
     flex: 0 1 calc(50% - 15px);
@@ -1173,7 +1187,7 @@ color: #FFF5E9;
 }
 
 #daniel-viana {
-    background-color: #ffffff;
+    background-color: #FFF5E9;
     padding: 60px 30px;
     display: flex;
     justify-content: center;
@@ -1183,9 +1197,7 @@ color: #FFF5E9;
     max-width: 1100px;
     margin: 0 auto;
     clear: both;
-    border: 1px solid #e0e0e0;
-    border-radius: 0px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border-radius: 0px;    
 }
 
 #daniel-viana img {
@@ -1193,8 +1205,11 @@ color: #FFF5E9;
     max-width: 100%;
     height: auto;
     object-fit: cover;
-    border-radius: 50%;
     box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+#foto-daniel{    
+    border-radius: 50%;
 }
 
 .texto-daniel {
@@ -1224,6 +1239,13 @@ color: #FFF5E9;
     margin: 0;
 }
 
+#redes-daniel {
+    display: flex;
+    gap: 2px;
+    margin-top: 2px;
+    border-radius: 0%;
+}
+
 
 
 /* Tablet responsiveness */
@@ -1242,9 +1264,9 @@ color: #FFF5E9;
 }
 
 /* Mobile responsiveness for Sobre page */
-@media (max-width: 768px) {
+@media (max-width: 860px) {
     #sobre {
-        padding: 40px 20px;
+        padding: 20px 20px;
         float: none;
         width: 100%;
         min-height: auto;
@@ -1284,7 +1306,20 @@ color: #FFF5E9;
         width: 100%;
     }
 
+    #back-ground-sobre {
+        padding: 20px 0;
+    }
+
+    #sobre-comentarios {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 3px 0px;
+    }
+    
 }
+
+
 
 
 
