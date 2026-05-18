@@ -426,7 +426,7 @@ footer{
     height: 60px;
 }
 
-                                                                                            /*Responsividade HOME*/
+    /*Responsividade HOME*/
 
 @media (min-width: 768px) {
 header{
@@ -602,6 +602,7 @@ h1{
 .separador-orç{
     display: flex;
     justify-self: center;
+    padding: 10px 0px;
 }
 
 #orçamento .nav-link.active{
@@ -641,7 +642,7 @@ h1{
 
 .tab-content{
     background-color: #1F140F;
-    padding: 10px;
+    padding: 15px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -783,7 +784,7 @@ h5{
     height: fit-content;
     width: 100%;
     margin-top: 20px;
-    padding: 10px;
+    padding: 15px;
 }
 
 #pills-tabContent{
@@ -799,7 +800,7 @@ h5{
     padding: 10px;
     width: 100%;
     justify-content: center;
-     border-radius: 0.5rem;
+    border-radius: 0.5rem;
 
 }
 
@@ -815,20 +816,19 @@ h5{
     margin-bottom: 0;
     display: flex;
     justify-content: center;
-     border-radius: 0.5rem;
+    border-radius: 0.5rem;
 color: #FFF5E9;
 }
 
 #data{
     margin-bottom: 0;
-    width: 150px;
-   border-radius: 0.5rem;
+    width: 200px;
+    border-radius: 0.5rem;
 
 }
 
 #hora{
-    width: 150px;
-
+    width: 200px;
     border-radius: 0.5rem;
 
 }
@@ -836,20 +836,22 @@ color: #FFF5E9;
 #pills-home{
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+    width: min-content;
     position: absolute;
     z-index: 1;
+}
+
+#hrInicio, #hrTermino{
+    width: stretch;
 }
 
 .dia{
     display: flex;
     justify-content: space-between;
-  border-radius: 0.5rem;
-color: #FFF5E9;
+    border-radius: 0.5rem;
 }
 
 #um-dia{
-    width: 85%;
     border-radius: 0.5rem;
 
 }
@@ -857,7 +859,8 @@ color: #FFF5E9;
 .hora{
     display: flex;
     justify-content: space-between;
-     border-radius: 0.5rem;
+    border-radius: 0.5rem;
+
 
 }
 
@@ -871,7 +874,7 @@ color: #FFF5E9;
     height: fit-content;
     width: 100%;
     margin-top: 20px;
-    padding: 10px;
+    padding: 15px;
 }
 
 #form-dados{
@@ -879,7 +882,7 @@ color: #FFF5E9;
     height: fit-content;
     width: 100%;
     margin-top: 20px;
-    padding: 10px;
+    padding: 15px;
     color: #FFF5E9;
 }
 
@@ -915,8 +918,32 @@ color: #FFF5E9;
     color: #FFFFFF;
     padding: 5px;
 }
-            
-            
+.form-check-input:checked{
+    background-color: #EC8A6A;
+    border-color: #EC8A6A;
+}
+.form-check-input:focus{
+    border-color: #EC8A6A;
+    box-shadow: 0 0 0 0.25rem rgb(236, 138, 106, 0.25);
+}
+    /*Responsividade ORÇAMENTO*/
+
+@media (min-width: 768px) {
+
+.tab-content, #form-dados, #conheceu, #seg-form{
+    padding: 20px 50px;
+}
+.form-check-input[type=checkbox] {
+    border-radius: .25em;
+    width: 20px;
+    height: 20px;
+}
+.form-check-input[type=radio] {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
             /*PAGINA SERVIÇOS*/
 .servicosdiv1 {
     background-color: #000000;
