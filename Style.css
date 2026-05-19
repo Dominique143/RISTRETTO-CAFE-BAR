@@ -867,6 +867,7 @@ color: #FFF5E9;
 #pills-profile{
     display: flex;
     flex-direction: column;
+    width: min-content;
 }
 
 #conheceu{
