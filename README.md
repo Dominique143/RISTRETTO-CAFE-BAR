@@ -1,40 +1,117 @@
-                                                                                            Ristretto Café Bar
+   # ☕ Restritto Café Bar
 
-O objeto de estudo faz parte da disciplina de Projeto Integrador com foco em um website para a empresa Restritto Café Bar. Eles oferecem serviços personalizados para atendimento em eventos, fornecendo cafés e atendimento. O site atenderá a necessidade de propagandear a empresa, assim como exibir um menu que permita pedidos personalizados pelos clientes.
+Projeto desenvolvido na disciplina de **Projeto Integrador** no curso de **Tecnologia em Sistemas para internet** pelo _**Instituto Federal de Brasília- Campus Brasília**_, com foco na criação de um website institucional para a empresa **Restritto Café Bar**.
 
-Site - https://dominique143.github.io/RISTRETTO-CAFE-BAR/
-https://github.com/infocbra/2025-2-vespertino-pi1-g2-2025-2
+O objetivo do sistema é divulgar os serviços oferecidos pela empresa, permitindo que clientes conheçam o cardápio, solicitem atendimentos personalizados para eventos e realizem pedidos de forma prática e intuitiva.
 
+---
 
-🚀 Começando 
+## 🌐 Acesse o Projeto
 
+* **Site:** [https://dominique143.github.io/RISTRETTO-CAFE-BAR/](https://dominique143.github.io/RISTRETTO-CAFE-BAR/)
+* **Repositório Principal:** [https://github.com/infocbra/2025-2-vespertino-pi1-g2-2025-2](https://github.com/infocbra/2025-2-vespertino-pi1-g2-2025-2)
+* **MVP:** [https://github.com/Dominique143/RISTRETTO-CAFE-BAR](https://github.com/Dominique143/RISTRETTO-CAFE-BAR)
 
-Links importantes:
+---
 
-Documentação- https://docs.google.com/document/d/1eZIGkMDywHRRPel9M24VudwuQuGZFgRqDFqz1snY5z0/edit?usp=sharing
+# 🚀 Começando
 
-Kanban- https://github.com/orgs/infocbra/projects/57
+Este projeto foi desenvolvido para atender às necessidades da empresa Restritto Café Bar, oferecendo:
 
-Protótipo figma - https://www.figma.com/design/pSGrqrZ4uSJNWiQBkG6ju4/wireframes?node-id=0-1&p=f&t=e4AQkUVI4rmqfAux-0
+* Divulgação institucional da empresa;
+* Exibição dos serviços disponíveis;
+* Cardápio digital;
+* Solicitação de pedidos personalizados;
+* Interface moderna e responsiva.
 
+---
 
+# 📚 Documentação do Projeto
 
-mvp - https://github.com/Dominique143/RISTRETTO-CAFE-BAR
+## 📄 Links importantes
 
-📋 Pré-requisitos De que coisas você precisa para instalar o software e como instalá-lo? Dar exemplos 🔧 Instalação Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução. Diga como essa etapa será: Dar exemplos E repita: Até finalizar Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração. ⚙️ Executando os testes Explicar como executar os testes automatizados para este sistema. 🔩 Analise os testes de ponta a ponta Explique que eles verificam esses testes e porquê. Dar exemplos ⌨️ E testes de estilo de codificação Explique que eles verificam esses testes e porquê. Dar exemplos 📦 Implantação Adicione notas adicionais sobre como implantar isso em um sistema ativo
+* **Documentação:**
+  [https://docs.google.com/document/d/1eZIGkMDywHRRPel9M24VudwuQuGZFgRqDFqz1snY5z0/edit?usp=sharing](https://docs.google.com/document/d/1eZIGkMDywHRRPel9M24VudwuQuGZFgRqDFqz1snY5z0/edit?usp=sharing)
 
-🛠️ Construído com Mencione as ferramentas que você usou para criar seu projeto
+* **Kanban:**
+  [https://github.com/orgs/infocbra/projects/57](https://github.com/orgs/infocbra/projects/57)
 
--Html- Css
+* **Protótipo no Figma:**
+  [https://www.figma.com/design/pSGrqrZ4uSJNWiQBkG6ju4/wireframes?node-id=0-1&p=f&t=e4AQkUVI4rmqfAux-0](https://www.figma.com/design/pSGrqrZ4uSJNWiQBkG6ju4/wireframes?node-id=0-1&p=f&t=e4AQkUVI4rmqfAux-0)
 
-Dropwizard - O framework web usado Maven - Gerente de Dependência ROME - Usada para gerar RSS
+---
 
-🖇️ Colaborando Por favor, leia o COLABORACAO.md para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
+# 📋 Descrição da Sprint
 
-📌 Versão 1.0.1
+### Sprint Atual
 
-✒️ Autores Céu - Mediador, desenvolvedor Dominique - github, desenvolvedor Hugo - Documentação, desenvolvedor
+* Atualização da documentação do projeto;
+* Definição dos requisitos funcionais e não funcionais;
+* Atualização das páginas **Sobre** e **Serviços**;
+* Ajustes com base no protótipo desenvolvido no Figma.
 
-📄 Licença Este projeto está sob a licença (sua licença) - veja o arquivo LICENSE.md para detalhes.
+---
+
+# 🛠️ Tecnologias Utilizadas
+
+## Front-end
+
+* HTML5
+* CSS3
+* JavaScript
+
+## Ferramentas e Frameworks
+
+* Dropwizard — Framework web utilizado no projeto;
+* Maven — Gerenciador de dependências;
+* ROME — Biblioteca utilizada para geração de RSS.
+
+---
+
+# 📌 Versão
+
+**Versão atual:** `1.6`
+
+---
+
+# 👥 Equipe
+
+| Integrante | Função                       |
+| ---------- | ---------------------------- |
+| Dominique  | Desenvolvedor / GitHub       |
+| Hugo       | Documentação / Desenvolvedor |
+| Céu        | Mediador / Desenvolvedor     |
+
+---
+
+# 🎯 Objetivos do Projeto
+
+* Melhorar a presença digital da empresa;
+* Facilitar o contato entre clientes e empresa;
+* Disponibilizar informações sobre serviços e cardápio;
+* Criar uma experiência simples e intuitiva para o usuário.
+
+---
+
+# 🎁 Agradecimentos
+
+Agradecemos a todos que contribuíram para o desenvolvimento deste projeto.
+
+📢 Compartilhe o projeto com outras pessoas!
+🍺 Convide a equipe para um café ou uma cerveja!
+🫂 Obrigado pelo apoio e colaboração.
+
+---
+
+# 📷 Prévia do Projeto
+
+> Adicione aqui imagens ou screenshots do sistema futuramente.
+
+---
+
+# 📄 Licença
+
+Este projeto foi desenvolvido para fins acadêmicos na disciplina de Projeto Integrador.
+
 
 🎁 Expressões de gratidão Conte a outras pessoas sobre este projeto 📢; Convide alguém da equipe para uma cerveja 🍺; Um agradecimento publicamente 🫂; etc.
