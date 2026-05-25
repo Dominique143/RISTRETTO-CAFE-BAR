@@ -931,18 +931,19 @@ color: #FFF5E9;
 
 @media (min-width: 768px) {
 
-.tab-content, #form-dados, #conheceu, #seg-form{
-    padding: 20px 50px;
-}
-.form-check-input[type=checkbox] {
-    border-radius: .25em;
-    width: 20px;
-    height: 20px;
-}
-.form-check-input[type=radio] {
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    .tab-content, #form-dados, #conheceu, #seg-form{
+        padding: 20px 50px;
+    }
+    .form-check-input[type=checkbox] {
+        border-radius: .25em;
+        width: 20px;
+        height: 20px;
+    }
+    .form-check-input[type=radio] {
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+    }
 }
 
             /*PAGINA SERVIÇOS*/
