@@ -927,6 +927,14 @@ color: #FFF5E9;
     border-color: #EC8A6A;
     box-shadow: 0 0 0 0.25rem rgb(236, 138, 106, 0.25);
 }
+.form-control:focus{
+            background-color: #ffff;
+            border-color: #ec8a6a;
+            outline: 0
+            box-shadow: 0 0 0 .25rem #ec8a6a;
+}
+
+
     /*Responsividade ORÇAMENTO*/
 
 @media (min-width: 768px) {
