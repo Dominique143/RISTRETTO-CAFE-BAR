@@ -775,10 +775,6 @@ h5{
     font-size: 1.1rem;
 }
 
-#detalhes{
-    height: 50px;
-}
-
 #seg-form{
     background-color: #1F140F;
     height: fit-content;
@@ -820,17 +816,17 @@ h5{
 color: #FFF5E9;
 }
 
-#data{
-    margin-bottom: 0;
-    width: 200px;
-    border-radius: 0.5rem;
-
+#diaUm{
+    width: 100%;
 }
 
-#hora{
-    width: 200px;
-    border-radius: 0.5rem;
 
+.data-style{
+    padding: 5px;
+    border-radius: 0.5rem;
+    border: 1px solid #dee2e6;
+        width: 200px;
+    border-radius: 0.5rem;
 }
 
 #pills-home{
@@ -841,7 +837,7 @@ color: #FFF5E9;
     z-index: 1;
 }
 
-#hrInicio, #hrTermino{
+.diaHora{
     width: stretch;
 }
 
@@ -849,6 +845,7 @@ color: #FFF5E9;
     display: flex;
     justify-content: space-between;
     border-radius: 0.5rem;
+    gap: 5px;
 }
 
 #um-dia{
@@ -860,6 +857,7 @@ color: #FFF5E9;
     display: flex;
     justify-content: space-between;
     border-radius: 0.5rem;
+    gap: 5px;
 
 
 }
@@ -928,31 +926,84 @@ color: #FFF5E9;
     box-shadow: 0 0 0 0.25rem rgb(236, 138, 106, 0.25);
 }
 .form-control:focus{
-            background-color: #ffff;
-            border-color: #ec8a6a;
-            outline: 0
-            box-shadow:0 0 0 .25rem rgba(236,138,106,1.000)
+    border-color: #EC8A6A;
+    box-shadow: 0 0 0 0.25rem rgb(236, 138, 106, 0.25);
 }
 
+.modal-dialog{
+    margin: 0;
+}
+#modal-msg{
+    background-color: rgba(59, 40, 25, 0.54);
+}
+.modal-content{
+    background-color: #FFF5E9;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 30px;
+    border-radius: 0;
+    margin: 0;
+    border: 0;
+}
+#texto-fim p{
+    margin: 0;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#Merchan p{
+    margin: 0;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1.1rem;
+    font-style: italic;
+    margin: 0 20px;
+}
+#modal-link{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+#link-insta{
+    text-decoration: none;
+    color: #000000;
+}
+#btn-modal{
+    position:absolute;
+    right: 0;
+    margin-right: 30px;
+}
 
     /*Responsividade ORÇAMENTO*/
 
 @media (min-width: 768px) {
-
-    .tab-content, #form-dados, #conheceu, #seg-form{
-        padding: 20px 50px;
-    }
-    .form-check-input[type=checkbox] {
-        border-radius: .25em;
-        width: 20px;
-        height: 20px;
-    }
-    .form-check-input[type=radio] {
-        border-radius: 50%;
-        width: 20px;
-        height: 20px;
-    }
+.tab-content, #form-dados, #conheceu, #seg-form{
+    padding: 20px 50px;
 }
+.form-check-input[type=checkbox] {
+    border-radius: .25em;
+    width: 20px;
+    height: 20px;
+}
+.form-check-input[type=radio] {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.modal-dialog{
+    margin: auto;
+}
+.tab-content{
+    padding: 15px;
+    width:fit-content;
+    display: flex;
+    justify-content: center;
+    color: #FFF5E9;
+}
+}
+
 
             /*PAGINA SERVIÇOS*/
 .servicosdiv1 {
@@ -1355,13 +1406,3 @@ color: #FFF5E9;
     }
     
 }
-
-
-
-
-
-
-
-
-
-
