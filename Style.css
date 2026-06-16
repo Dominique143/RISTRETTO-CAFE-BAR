@@ -997,7 +997,7 @@ color: #FFF5E9;
 }
 .tab-content{
     padding: 15px;
-    width:fit-content;
+    width: auto;
     display: flex;
     justify-content: center;
     color: #FFF5E9;
