@@ -816,7 +816,7 @@ h5{
 color: #FFF5E9;
 }
 
-#diaUm{
+#umDia-data{
     width: 100%;
 }
 
@@ -827,14 +827,6 @@ color: #FFF5E9;
     border: 1px solid #dee2e6;
         width: 200px;
     border-radius: 0.5rem;
-}
-
-#pills-home{
-    display: flex;
-    flex-direction: column;
-    width: min-content;
-    position: absolute;
-    z-index: 1;
 }
 
 .diaHora{
@@ -858,11 +850,9 @@ color: #FFF5E9;
     justify-content: space-between;
     border-radius: 0.5rem;
     gap: 5px;
-
-
 }
 
-#pills-profile{
+#pills-profile, #pills-home{
     display: flex;
     flex-direction: column;
     width: min-content;
@@ -978,7 +968,7 @@ color: #FFF5E9;
     /*Responsividade ORÇAMENTO*/
 
 @media (min-width: 768px) {
-.tab-content, #form-dados, #conheceu, #seg-form{
+.tab-content, #form-dados, #conheceu, #seg-form, .tab-pane{
     padding: 20px 50px;
 }
 .form-check-input[type=checkbox] {
@@ -997,7 +987,7 @@ color: #FFF5E9;
 }
 .tab-content{
     padding: 15px;
-    width: auto;
+    width:auto;
     display: flex;
     justify-content: center;
     color: #FFF5E9;
