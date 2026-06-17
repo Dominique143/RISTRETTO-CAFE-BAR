@@ -179,7 +179,7 @@ document.getElementById('cancelar').addEventListener('click', function(e) {
     e.preventDefault();
 
     // Limpa todos os inputs, selects e textareas do formulário
-    document.querySelectorAll('#form-orcamento input, #form-orcamento select, #form-orcamento textarea, #conheceu select, #form-dados input, #form-dados textarea').forEach(function(el) {
+    document.querySelectorAll('#form-orcamento input, #form-orcamento select, #form-orcamento textarea').forEach(function(el) {
         if (el.type === 'checkbox' || el.type === 'radio') {
             el.checked = false;
         } else {
