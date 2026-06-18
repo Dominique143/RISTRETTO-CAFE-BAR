@@ -650,6 +650,11 @@ h1{
 }
 
 /*Form*/
+#form-orcamento label{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1.1rem;
+    color: #FFF5E9;
+}
 
 #social-form{
     box-sizing: border-box;
