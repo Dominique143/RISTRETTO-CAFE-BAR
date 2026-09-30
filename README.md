@@ -8,7 +8,7 @@ O objetivo do sistema é divulgar os serviços oferecidos pela empresa, permitin
 
 ## 🌐 Acesse o Projeto
 
-* **Site:** [https://dominique143.github.io/RISTRETTO-CAFE-BAR/]([https://dominique143.github.io/RISTRETTO-CAFE-BAR/](https://dominique143.github.io/RISTRETTO-CAFE-BAR/))
+* **Site:** https://dominique143.github.io/RISTRETTO-CAFE-BAR/
 * **Repositório Principal:** [https://github.com/infocbra/2025-2-vespertino-pi1-g2-2025-2](https://github.com/infocbra/2025-2-vespertino-pi1-g2-2025-2)
 * **MVP:** [https://github.com/Dominique143/RISTRETTO-CAFE-BAR](https://github.com/Dominique143/RISTRETTO-CAFE-BAR)
 
